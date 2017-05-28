@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router';
 
-const Home = ({children}) => {
+const App = ({children}) => {
     return (
     <div>
         <ul>
@@ -14,4 +14,4 @@ const Home = ({children}) => {
     </div>
 )}
 
-export default Home;
+export default App;
