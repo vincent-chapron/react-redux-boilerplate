@@ -1,8 +1,8 @@
 version: '3'
 services:
     app:
-        container_name: ${BUILD_TAG}
-        image: ${BUILD_TAG}
+        container_name: react-redux-boilerplate
+        image: prod/react-redux-boilerplate
         build: .
         ports:
             - "80"
